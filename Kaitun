@@ -1,0 +1,31 @@
+getgenv().Script_Mode = "Kaitun_Script"
+_G.OneClickSettings = {
+    ["MainIsFarmLevel"] = true,
+    ["LockFruits"] = {
+        "Dough-Dough",
+        "Dragon-Dragon",
+        "Yeti-Yeti"
+    },
+    ["MainFruits"] = {
+        "Dough-Dough",
+        "Pain-Pain",
+        "T-Rex-T-Rex",
+        "Shadow-Shadow",
+        "Tiger-Tiger",
+        "Kitsune-Kitsune"
+    },
+    ["RegularFruits"] = {
+        "Flame-Flame",
+        "Magmag-Magma",
+        "Dark-Dark",
+        "Light-Light"
+    },
+    ["FragmentsCap"] = 50000,
+    ["Upgrade Race"] = true,
+    ["Pull Lever"] = true,
+    ["Farm Shark Anchor"] = true,
+    ["Cursed Dual Katana"] = true
+}
+getgenv().Key = "MARU-TKT4P-ICLJS-HJKL-X23AR-8JCFT"
+getgenv().id = "1290907151145107535"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
